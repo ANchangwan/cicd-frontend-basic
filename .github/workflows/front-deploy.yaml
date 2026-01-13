@@ -9,7 +9,7 @@ on:
 env:
   AWS_REGION: ap-northeast-2
   S3_BUCKET_NAME: s3-with-cloudfront-bucket-acw  # 수정 필요
-  CLOUDFRONT_ID: d16ox1w4jwpqk9.cloudfront.net  # CloudFront 배포ID로 수정 필요
+  CLOUDFRONT_ID: E1FZQGE6J8CBVJ  # CloudFront 배포ID로 수정 필요
 
 jobs:
   build-and-deploy:
