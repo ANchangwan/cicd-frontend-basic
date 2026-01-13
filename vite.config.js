@@ -10,4 +10,12 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    assetsInlineLimit: 0, // asset 해시 관련 문제 회피
+    rollupOptions: {
+      output: {
+        assetFileNames: '[name][extname]',
+      },
+    },
+  },
 })
